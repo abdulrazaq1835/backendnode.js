@@ -5,3 +5,5 @@ abdul={
 
 }
  module.exports = abdul ;
+
+ console.log("abdulrazazak")
