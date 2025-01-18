@@ -23,7 +23,7 @@ const server = http.createServer((req, res) => {
 
     if (req.url === '/' && req.method === 'GET') {
         res.statusCode = 200;
-        res.end(JSON.stringify({ message: 'Welcome to the API!' }));
+        res.end(JSON.stringify({ message: 'welcome to the API!' }));
     } else if (req.url === '/user' && req.method === 'GET') {
         res.statusCode = 200;
         res.end(JSON.stringify({ name: 'Abdul Razzak', age: 25 }));
