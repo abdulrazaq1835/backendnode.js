@@ -10,13 +10,17 @@ const  fs = require('fs')
 
 
 
-console.log(process)
-console.log(process.argv[2])
+// console.log(process)
+// console.log(process.argv[2])
 
-if (process.argv[2]==='add') {
+// if (process.argv[2]==='add') {
 
-    fs.writeFileSync(process.argv[3],process.argv[4])
+//     fs.writeFileSync(process.argv[3],process.argv[4])
     
-} else {
-    console.log("plz check your command")
-}
+// } else {
+//     console.log("plz check your command")
+// }
+
+// console.log(__dirname)
+//  console.log(__filename)
+
