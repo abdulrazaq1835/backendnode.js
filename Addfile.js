@@ -6,5 +6,5 @@ const path = require('path')
 
  console.log("getfiledta:", getfiledatapath)
   
- fs.writeFileSync(getfiledatapath+'/abc.txt',"this is my first text")
+ fs.writeFileSync(getfiledatapath+'/abc.txt',"this is my  text")
 
