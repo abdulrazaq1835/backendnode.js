@@ -8,3 +8,5 @@ const path = require('path')
   
  fs.writeFileSync(getfiledatapath+'/abc.txt',"this is my  text")
 
+ console.log(__dirname,__filename)
+
