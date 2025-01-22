@@ -21,6 +21,10 @@ setTimeout(() => {
     console.log("Task C")
 }, 0);
 
+  console.log("task E")
 setTimeout(() => {
     console.log("Task D")
 }, 5000);
+
+
+//  HOW NODEJS WORK..........................
