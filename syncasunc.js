@@ -20,7 +20,7 @@ setTimeout(() => {
 setTimeout(() => {
     console.log("Task C")
 }, 0);
-
+console.log("abdulrazzak")
   console.log("task E")
 setTimeout(() => {
     console.log("Task D")
