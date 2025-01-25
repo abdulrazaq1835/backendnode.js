@@ -11,7 +11,7 @@ const express = require('express')
   
   app.get('/about',(req, resp)=>{
 
-    resp.send("welcome to about page1  ")
+    resp.send("welcome to ABOUT page1  ")
     
   })
 
