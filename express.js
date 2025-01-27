@@ -23,7 +23,7 @@ const express = require('express')
 //     console.log("my server is runnnig")
 // })
 
-const server = app.listen(4300,function(){
+const server = app.listen(4200,function(){
 
     const host = server.address().address
     const port =  server.address().port
