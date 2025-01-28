@@ -29,7 +29,7 @@ const express = require('express')
 /////////WAY=2............
 
 app.listen(4200,function(){
-    console.log("my server is runnnig")
+    console.log("my server is runnnig at4200")
 })
 
 const server = app.listen(4200,function(){
