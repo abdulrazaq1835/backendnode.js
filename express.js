@@ -9,9 +9,18 @@ const express = require('express')
   })
 
   
-  app.get('/about',(req, resp)=>{
+  // app.get('/about',(req, resp)=>{
 
-    resp.send("welcome to ABBOUT page1  ")
+  //   resp.send("welcome to ABBOUT page1  ")
+    
+  // })
+
+
+  app.get('/services',(req, resp)=>{
+
+    console.log('req:',req)
+
+    resp.send("welcome to services page  ")
     
   })
 
@@ -19,9 +28,9 @@ const express = require('express')
 
 /////////WAY=2............
 
-// app.listen(4200,function(){
-//     console.log("my server is runnnig")
-// })
+app.listen(4200,function(){
+    console.log("my server is runnnig")
+})
 
 const server = app.listen(4200,function(){
 
