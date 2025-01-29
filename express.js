@@ -18,7 +18,8 @@ const express = require('express')
 
   app.get('/services',(req, resp)=>{
     console.log('req:',req)
-    console.log('req:',req.query.name)
+    console.log('req:',req.query)
+    console.log('req:',req.query.name,req.query.age)
 
     resp.send("welcome to services page  ")
     
