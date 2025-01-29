@@ -13,12 +13,12 @@ const express = require('express')
 
   //   resp.send("welcome to ABBOUT page1  ")
     
-  // })
+  // })  
 
 
   app.get('/services',(req, resp)=>{
-
     console.log('req:',req)
+    console.log('req:',req.query.name)
 
     resp.send("welcome to services page  ")
     
@@ -28,16 +28,17 @@ const express = require('express')
 
 /////////WAY=2............
 
-app.listen(4200,function(){
-    console.log("my server is runnnig at4200")
-})
+// app.listen(4200,function(){
+//     console.log("my server is runnnig")
+// })
 
 const server = app.listen(4200,function(){
 
-    const host = server.address().address
-    const port =  server.address().port
-    console.log("my server is runnnig  at http://%s:$s",host,port)
- 
+    // const host = server.address().address
+    // const port =  server.address().port
+    console.log("my server is runnnig ")
+
+   
 })
 
 
