@@ -4,6 +4,10 @@ const app = express();
 
 const path =  require('path')
 
+ const getdirpath = path.join(__dirname,'public')
+
+ console.log("getdirpath:",getdirpath)
+
 app.get("/", (req, resp) => {
     resp.send("welcome to expressjs");
   });
