@@ -4,16 +4,22 @@ const app = express();
 
 const path =  require('path')
 
+//html pages in node js 
+
+
  const getdirpath = path.join(__dirname,'public')
 
- console.log("getdirpath:",getdirpath)
+//  console.log("getdirpath:",getdirpath)
 
-app.get("/", (req, resp) => {
-    resp.send("welcome to expressjs");
+app.use(express.static(getdirpath))
+
+app.get('/us', (req, resp) => {
+    resp.sendFile(`${getdirpath}/home.html`);
   });
 
 app.get("/about", (req, resp) => {
-  resp.send("<h3>welcome to Aboutpage...<h3/>");
+    resp.sendFile(`${getdirpath}/about.html`)
+  
 });
 
 app.listen(4200, function () {
