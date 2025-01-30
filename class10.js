@@ -18,8 +18,35 @@ const express = require('express')
         `)
   })
 
+     
+  app.get('/user-list',(req, resp)=>{
+     
+    const userlist =  [{studentname:"abdulrazzak",
+      studentemail:"abdul@23gmail.com",
+      studentcontact:24424
+      
+    
+    }, {studentname:"abdul",
+      studentemail:"arazakl@23gmail.com",
+      studentcontact:24232324
+      }]
 
+      resp.send(userlist)
+  
+  })
+
+
+
+
+
+
+
+
+
+ 
 
 app.listen(4200,function(){
     console.log("my server is running")
 }) 
+
+
