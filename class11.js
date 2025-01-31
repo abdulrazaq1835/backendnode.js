@@ -21,7 +21,12 @@ app.get("/about", (req, resp) => {
     resp.sendFile(`${getdirpath}/about.html`)
   
 });
+ app.get("/contact",(req,resp)=>{
+   resp.sendFile(`${getdirpath}/contact.html`)
+ })
+
+
 
 app.listen(4200, function () {
-  console.log("my server is running");
+  console.log("my server is running..");
 });
