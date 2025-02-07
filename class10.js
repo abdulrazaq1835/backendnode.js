@@ -23,7 +23,7 @@ const express = require('express')
   app.get('/user-list',(req, resp)=>{
      
     const userlist =  [{studentname:"abdulrazzak",
-      studentemail:"abdul@23gmail.com",
+      studentemail:"abdulrhman@23gmail.com",
       studentcontact:24424
       
     
