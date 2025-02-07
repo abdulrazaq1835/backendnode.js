@@ -15,7 +15,7 @@ const express = require('express')
     resp.send(`
          <input type='text' value= ${req.query.name}"/>
          <button>submit</button> 
-         <a href="/user-list">go to user list </a>       
+         <a href="/user-list">go to user-list </a>       
         `)
   })
 
