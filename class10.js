@@ -27,7 +27,7 @@ const express = require('express')
       studentcontact:24424
       
     
-    }, {studentname:"abdul",
+    }, {studentname:"abdulRAXZAK",
       studentemail:"arazakl@23gmail.m",
       studentcontact:24232324
       }]
