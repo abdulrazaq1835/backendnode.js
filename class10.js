@@ -24,7 +24,7 @@ const express = require('express')
      
     const userlist =  [{studentname:"abdulrazzak",
       studentemail:"abdulrhmana@23gmail.com",
-      studentcontact:24424
+      studentcontact:2442434
       
     
     }, {studentname:"abdulRAXZAK",
